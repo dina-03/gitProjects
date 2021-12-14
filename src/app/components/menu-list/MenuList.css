@@ -1,0 +1,111 @@
+.menu__list {
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 0px;
+}
+.menu__header {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding-top: 30px;
+    font-weight: 200;
+}
+
+.menu__category span, .menu__price span {
+    font-weight: 700;
+}
+.menu__item {
+    width: 300px;
+    min-height: 400px;
+    background-color: #fff;
+    box-shadow: 5px 5px 45px rgba(256, 256, 256, .1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0px 20px 40px;
+    position: relative;
+}
+.menu__title {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.menu__img {
+    width: calc(100% + 40px);
+    transform: translateX(-20px);
+    height: 240px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.menu__category, .menu__price {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.menu__btn {
+    padding: 10px;
+    border: none;
+    background-color: #00bcd4c4;;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    outline: none;
+}
+
+.menu__btn:focus{
+    outline: none;
+}
+
+.menu__btn:hover{
+    background-color: #1ca3b5c4;;
+}
+
+
+.menu__item a{
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+.menu__category {
+    font-size: 1.1rem;
+}
+
+a > .menu__category {
+    font-size: 0.9rem;
+}
+
+.menu__category_Img{
+    position: absolute;
+    content: '';
+    bottom: 70px;
+    right: 20px;
+    width: 75px;
+    height: 75px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pizza {
+    background-image: url('http://www-static.dreambox.com/wp-content/uploads/2015/02/Prize-Icon-Pizza.png');
+    width: 70px;
+    height: 70px;
+}
+.salads {
+    background-image: url('https://images.vexels.com/media/users/3/141142/isolated/preview/d5ce613797b1fd08bdf3e038bfa1d0b2-colorful-salad-cartoon-by-vexels.png')
+}
+.meat{
+    background-image: url('https://cdn2.iconfinder.com/data/icons/food-drinks-v3/512/Steak-512.png');
+}
