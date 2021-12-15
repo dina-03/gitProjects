@@ -1,0 +1,17 @@
+.post-list{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    _flex-direction: column;
+    margin: 10px auto;
+    border: 1px solid transparent;
+}
+.title{
+    font-size: 35px;
+    font-weight: 700;
+    color: cadetblue;
+    margin: 30px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 128, 0, 0.13);
+}

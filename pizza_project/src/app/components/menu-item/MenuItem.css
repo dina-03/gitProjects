@@ -1,0 +1,106 @@
+.item_page{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.item_block{
+    margin: 50px auto;
+    width: 700px;
+    height: 450px;
+    background-color: rgba(250, 248, 248, 0.7);
+    border: 6px solid #fff;
+    padding: 20px;
+    position: relative;
+}
+
+.item_order{
+    margin: 50px auto;
+    width: 700px;
+    height: 550px;
+    background-color: rgba(250, 248, 248, 0.7);
+    border: 6px solid #fff;
+    padding: 10px;
+    position: relative;
+}
+
+.home__img{
+    display: block;
+    width: 600px;
+    margin: 20px auto;
+    border: 8px solid rgba(255, 255, 255, 0.9);
+    /* border: 8px solid #00bcd485; */
+}
+
+.load__btn {
+    width: 600px;
+    padding: 15px;
+    display: block;
+    border: none;
+    background-color: rgba(4, 155, 24, 0.62);
+    /* background-color: #00bcd4c4; */
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 30px auto;
+    outline: none;
+}
+
+.load__btn:hover {
+    background-color: rgba(0, 0, 0, 0.52);
+
+}
+
+.menu__img {
+    width: calc(100% + 40px);
+    transform: translateX(-20px);
+    height: 240px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.menu__category, .menu__price {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.item_page .menu__price{
+    font-size: 1.6rem;
+}
+
+.item_page .menu__category {
+    font-size: 1.2rem;
+}
+
+.item_page a > .menu__category {
+    font-size: 1rem;
+}
+
+.item_page .menu__btn {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.item_page .menu__category_Img{
+    position: absolute;
+    content: '';
+    top: 0px;
+    right: 20px;
+    width: 120px;
+    height: 120px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item_page .pizza {
+    background-image: url('http://www-static.dreambox.com/wp-content/uploads/2015/02/Prize-Icon-Pizza.png');
+    width: 120px;
+    height: 120px;
+}
+.salads {
+    background-image: url('https://images.vexels.com/media/users/3/141142/isolated/preview/d5ce613797b1fd08bdf3e038bfa1d0b2-colorful-salad-cartoon-by-vexels.png')
+}
+.meat{
+    background-image: url('https://cdn2.iconfinder.com/data/icons/food-drinks-v3/512/Steak-512.png');
+}
